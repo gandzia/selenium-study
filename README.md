@@ -63,3 +63,9 @@ JUNIT
 >>> method which will be executed just before stopping the test execution is termed as “TearDown”
 * when do we use assertEquals(expected, actual) method. What each parameter means?
 >>> To check that two values are equal. Result is Passed if expected = actual and Failed if expected <> actual. Messages are only displayed when an assert fails.
+
+************************************************************
+************************************************************
+************************************************************
+JAVA recap
+Q: What each line of code in MailTest mean?
