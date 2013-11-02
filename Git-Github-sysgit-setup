@@ -30,7 +30,7 @@ Tell idea where to look for git executable file
 2. Open menu File->Settings
 3. In search field type git
 4. Version Control-Git will be selected
-5. In right panel in field "path to git executable" select path to ...\bin\git.exe file in msysgit installation.
+5. In right panel in field "path to git executable" select path to ...\cmd\git.exe file in msysgit installation.
 6. Click "Test" button to make sure correct path is selected.
 
 Now idea is integrated with git.
@@ -45,3 +45,11 @@ Now we need to be able to commit and get files from github.
 5. In "directory Name" input "selenium-study".
 6. If all is good "Clone" button will bwe enable, just click it.
 7. As result you should have two files in your newly cloned project.
+
+Add project to github
+*********************
+1. Select project name
+2. In idea menu select VCS->Git->Add
+3. In idea menu select VCS->Git->Commit ...
+4. Add comment, it is obligatory
+5. Select Commit and push
