@@ -1,0 +1,47 @@
+Purpose: learn to use git, github where selenium tests will be commited to.
+Skill to train: integrate idea and github using git plugin and msysgit (git for Windows). Automation testers need to learn a lot of different tools.
+
+**********************************************************************************************************************
+**********************************************************************************************************************
+
+Github, git what it is.
+
+Github - is one of the places where we can store our files.
+Git - is a special, Revision Control, software that helps us control changes in our code,
+especially when several developers change one and the same file.
+So, when we commit changes to one and the same file to github git stores changes and we can see what changed
+and who did that.
+
+************************************************************************************************************************
+
+To make IntelliJIdea to work with git you need to install git software on your computer. We will install msysgit,
+git version for Windows, isn't it fun?
+
+msysgit
+*******
+1. Go to https://code.google.com/p/msysgit/downloads/list
+2. Click msysGit-fullinstall-1.8.4-preview20130916.exe file.
+3. Install msysgit to c:/dev dir.
+4. As result of installation you will see command line open. You may close it.
+
+Tell idea where to look for git executable file
+***********************************************
+1. Open your project in idea.
+2. Open menu File->Settings
+3. In search field type git
+4. Version Control-Git will be selected
+5. In right panel in field "path to git executable" select path to ...\bin\git.exe file in msysgit installation.
+6. Click "Test" button to make sure correct path is selected.
+
+Now idea is integrated with git.
+
+Integrate idea with your github files.
+*************************************
+Now we need to be able to commit and get files from github.
+1. Open your test project.
+2. Open menu VCS->Checkout from Version Control->Git.
+3. In field "Git Repository URL" enter :https://github.com/gandzia/selenium-study.git". Click "Test" button.
+4. In field "Parent directory" type "C:\dev\projects\gandzia".
+5. In "directory Name" input "selenium-study".
+6. If all is good "Clone" button will bwe enable, just click it.
+7. As result you should have two files in your newly cloned project.
